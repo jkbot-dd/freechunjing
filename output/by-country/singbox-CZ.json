@@ -5,21 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.97.1",
-      "server_port": 2053,
-      "uuid": "0b3e7958-e5c4-498f-ab21-b49686f95d2d",
-      "tls": {
-        "enabled": true,
-        "server_name": "bold-term-4edd.mbigspot.workers.dev",
-        "insecure": false
-      },
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "153.76.185.155",
+      "server_port": 3090,
+      "uuid": "43b15d01-8cc5-40ea-b42a-cb1a727224dc",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "bold-term-4edd.mbigspot.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
@@ -27,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
