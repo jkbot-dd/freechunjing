@@ -5,25 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "128.241.25.11",
-      "server_port": 30021,
-      "uuid": "96e2e8fa-f7e6-466c-bd21-689d29c7ccb2",
+      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
+      "server": "81.208.170.142",
+      "server_port": 1500,
+      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
       "tls": {
         "enabled": true,
-        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
-        "insecure": false,
+        "server_name": "www.ebay.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
+          "short_id": "775eb6408888248e"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-        }
+        "type": "grpc"
       }
     },
     {
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
